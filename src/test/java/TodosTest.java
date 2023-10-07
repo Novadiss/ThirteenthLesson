@@ -29,7 +29,7 @@ public class TodosTest {
     }
 
     @Test
-    public void shouldSearchWithSomeMeaning() {
+    public void shouldSearchWithSomeMeaningResult() {
         SimpleTask simpleTask = new SimpleTask(5, "Настроить приложения");
 
         String[] subtasks = {"Молоко", "Яйца", "Хлеб"};
@@ -54,7 +54,7 @@ public class TodosTest {
     }
 
     @Test
-    public void shouldSearchWithOneMeaning() {
+    public void shouldSearchWithOneMeaningResult() {
         SimpleTask simpleTask = new SimpleTask(5, "Настроить приложения");
 
         String[] subtasks = {"Молоко", "Яйца", "Хлеб"};
@@ -79,7 +79,7 @@ public class TodosTest {
     }
 
     @Test
-    public void shouldSearchWithoutMeaning() {
+    public void shouldSearchWithoutResult() {
         SimpleTask simpleTask = new SimpleTask(5, "Настроить приложения");
 
         String[] subtasks = {"Молоко", "Яйца", "Хлеб"};

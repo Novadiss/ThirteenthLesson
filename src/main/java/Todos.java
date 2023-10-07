@@ -11,7 +11,7 @@ public class Todos {
         return tmp;
     }
 
-    public void add(Task task) { // <- вот здесь в параметре может лежать объект и вида SimpleTask, и вида Epic, и вида Meeting
+    public void add(Task task) {
         tasks = addToArray(tasks, task);
     }
 
